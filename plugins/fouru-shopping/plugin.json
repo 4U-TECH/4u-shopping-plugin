@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fouru-shopping",
+  "version": "0.1.0",
+  "description": "포유페이 개발 테스트몰의 상품을 조회하고 위임받은 개발용 빌링키로 단품 한 개를 테스트 승인합니다."
+}
