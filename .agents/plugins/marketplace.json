@@ -1,0 +1,20 @@
+{
+  "name": "fouru-pay",
+  "interface": {
+    "displayName": "FourU Pay"
+  },
+  "plugins": [
+    {
+      "name": "fouru-shopping",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fouru-shopping"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Shopping"
+    }
+  ]
+}
