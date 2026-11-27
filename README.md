@@ -16,10 +16,11 @@ codex mcp list
 
 ## Gemini CLI에 설치
 
-Gemini CLI를 사용할 수 있는 계정 또는 API 키를 준비합니다. 터미널에서 확장을 설치하고 표시되는 설치 안내를 확인합니다.
+Gemini CLI를 사용할 수 있는 계정 또는 API 키를 준비합니다. 터미널에서 GitHub의 `dev` 브랜치를 복제한 뒤 해당 폴더에서 확장을 설치합니다. 설치 안내에 표시되는 `fouru-shop` 서버 주소를 확인합니다.
 
 ```sh
-gemini extensions install https://github.com/4U-TECH/4u-shopping-plugin --ref dev
+git clone --branch dev --single-branch https://github.com/4U-TECH/4u-shopping-plugin.git
+gemini extensions install ./4u-shopping-plugin
 gemini extensions list
 ```
 
